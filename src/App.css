@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background: url("./images/bg-1.png") no-repeat;
+  background-color: #070709;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  color: white;
+  margin-bottom: 1 rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+  margin-top: 50px;
+}
+
+.panel {
+  margin-top: 2em;
+}
+
+.panel-heading {
+  background-image: linear-gradient(to left,#38052F, #070709);
+  background-color: black;
+  color: white;
+}
+
+.address-box {
+  padding: 3em;
+}
+
+.box .title {
+  color: #333;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar-item {
+  color: white;
+}
+
+.connect-wallet span {
+  color: #E10859;
+}
+
+.connect-wallet:hover {
+  background-color: #e1e1e1 !important;
+}
+
+.container.main-content {
+  max-width: 1000px !important;
+}
+
+.faucet-hero-body {
+  margin-top: 100px;
+}
+
+.withdraw-error {
+  color: red;
+}
+
+.withdraw-success {
+  color: green;
 }
